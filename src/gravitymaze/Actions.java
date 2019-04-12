@@ -9,6 +9,6 @@ package gravitymaze;
  *
  * @author Marcel Millan
  */
-public class layoutUI {
+public class Actions {
     
 }
