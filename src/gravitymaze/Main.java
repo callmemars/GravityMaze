@@ -9,11 +9,13 @@ package gravitymaze;
  */
 public class Main {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-   
+    public static void main(String[] args)
+    {
+        Vertex test = new Vertex(0, 4, 0);
+        Vertex test2;
+        test2 = test.getNewVertex(test, 'y', 'r', 'f', 4);
+        test2.getVertex();
+                
     }
     
 }
